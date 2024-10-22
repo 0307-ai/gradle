@@ -5,7 +5,7 @@ plugins {
 sonarqube {
     properties {
         property "sonar.host.url", "http://3.86.226.158:9000/" // Replace with your SonarQube server URL
-        property "sonar.projectKey", "your_project_key"
+        property "sonar.projectKey", "gradle"
         property "sonar.projectName", "Your Project Name"
         // Add other required properties here
     }
